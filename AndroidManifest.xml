@@ -1,0 +1,49 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ineed.help"
+    android:versionCode="1"
+    android:versionName="Alf-a" android:installLocation="auto">
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="15" />
+    <application 
+        android:configChanges="locale"
+        android:label="@string/app_name" 
+        android:icon="@drawable/ic_launcher" 
+        android:theme="@style/AppTheme">
+	<activity
+            android:name=".app_start"
+            android:label="@string/app_name" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        	<activity
+            android:name=".send_sms"
+            android:label="iNeedHelp" >
+
+        </activity>
+        
+    </application>
+    
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    
+    <uses-permission android:name="android.permission.READ_INPUT_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    
+    
+   //**BRICK */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+
+</manifest>
